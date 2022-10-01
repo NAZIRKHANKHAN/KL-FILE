@@ -16,15 +16,15 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from XNXX import __main__
+        from XNXX import login
  
-        __main__()
+        login()
  
  
  
 elif bit == "32bit":
  
-        from ethan32 import __main__
+        from ethan32 import login
  
  
-        __main__()
+        login()
